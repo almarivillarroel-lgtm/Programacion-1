@@ -1,7 +1,7 @@
 // Materia: Programación I, Paralelo 4 
 // Autor: Almari Villarroel 
 // Fecha creación: 02/10/2025 
-// Número de ejercicio: 1 
+// Número de ejercicio: 4 
 // Problema planteado: Leer 2 vectores de dimensión N y calcule la multiplicación de los mismos en otro vector. 
 #include <iostream>
 using namespace std;

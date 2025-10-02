@@ -1,7 +1,7 @@
 // Materia: Programación I, Paralelo 4 
 // Autor: Almari Villarroel 
 // Fecha creación: 02/10/2025 
-// Número de ejercicio: 1 
+// Número de ejercicio: 5 
 // Problema planteado:  Leer 2 vectores de dimensión N y combine ambos en otro vector. 
 #include <iostream>
 using namespace std;

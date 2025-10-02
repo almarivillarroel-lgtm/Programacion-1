@@ -1,7 +1,7 @@
 // Materia: Programación I, Paralelo 4 
 // Autor: Almari Villarroel 
 // Fecha creación: 02/10/2025 
-// Número de ejercicio: 1 
+// Número de ejercicio: 3 
 // Problema planteado: 3. Escriba un programa para introducir los N números enteros en un arreglo llamado 
 //calificaciones. 
 //Después que todos los números son introducidos obtener: 

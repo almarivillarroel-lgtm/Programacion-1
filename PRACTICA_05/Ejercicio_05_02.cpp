@@ -1,7 +1,7 @@
 // Materia: Programación I, Paralelo 4 
 // Autor: Almari Villarroel 
 // Fecha creación: 02/10/2025 
-// Número de ejercicio: 1 
+// Número de ejercicio: 2 
 // Problema planteado: Escriba un programa para introducir los siguientes valores en un arreglo nombrado 
 //voltios: 11.95, 16.32, 12.15, 8.22, 15.98, 26.22, 13.54, 6.45, 17.59. Después que se hayan 
 //introducido los datos, haga que su programa despliegue los valores. 
