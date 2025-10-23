@@ -16,8 +16,40 @@
 //cuadrado cada desviación individual y dividiendo la suma de las desviaciones 
 //cuadradas entre el número de desviaciones. 
 #include <iostream>
+#include <vector>
 using namespace std;
 int main ()
 {
-    
+    vector <int> calificaciones;
+    int N=0;
+    cout << "Ingrese el numero de calificaciones: ";
+    cin >> N;
+    calificaciones.resize(N);
+    for (int i = 0; i < N; i++)
+    {
+        cout << "Ingrese la calificacion " << (i+1) << ": ";
+        cin >> calificaciones[i];
+    }
+    int suma = 0;
+    for (int i = 0; i < N; i++)
+    {
+        suma += calificaciones[i];
+    }
+    int promedio = suma / N;
+    cout << "\nPromedio de calificaciones: " << promedio << endl;
+    vector <int> desviacion(N);
+    cout << "\nDesviaciones:" << endl;
+    for (int i = 0; i < N; i++)
+    {
+        desviacion[i] = calificaciones[i] - promedio;
+        cout << "Desviacion: " << desviacion[i] << endl;
+    }
+    int sumaDesviacionesCuadradas = 0;
+    for (int i = 0; i < N; i++)
+    {
+        sumaDesviacionesCuadradas += desviacion[i] * desviacion[i];
+    }
+    int varianza = sumaDesviacionesCuadradas / N;
+    cout << "\nVarianza de los datos: " << varianza << endl;
+    return 0;
 }  
